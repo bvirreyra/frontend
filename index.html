@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primera Web</title>
+    <script
+      src="https://kit.fontawesome.com/c9b87a4bee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header id="encabezado">
+      <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+      <label class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="navbar">
+        <ul class="Menu">
+          <li><a class="lista" href="index-personal.html#Home">Inicio</a></li>
+          <li><a class="lista" href="http://www.google.com">Trabajo</a></li>
+          <li>
+            <a class="lista" href="index-personal.html#Service">Servicios</a>
+          </li>
+          <li>
+            <a class="lista" href="index-personal.html#About">Acerca de mi</a>
+          </li>
+          <li>
+            <a class="lista" href="index-personal.html#Contact">Contaco</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="seccion-principal">
+      <div id="acerca">
+        <section class="seccion-1">
+          <div class="acerca-de">
+            <button id="botoncambia" type="button">CAMBIA</button>
+            <h2 id="sobremi">Acerca de mi</h2>
+            <p class="parrafo1">
+              ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+            </p>
+            <p class="parrafo2">
+              Me llamo Tere, nací en Buenos Aires y vivo en Caballito. Me gusta
+              el helado y salir a pasear en días de sol. Me encantaría aprender
+              a programar para poder ayudar a las personas a mostrar lo que
+              hacen.
+            </p>
+          </div>
+          <div class="acerca-imagen">
+            <img src="img/hero-img.jpg" alt="imagen personal" />
+          </div>
+        </section>
+      </div>
+      <section class="seccion-2">
+        <img src="img/eleph.jpg" alt="imagen de elefantes" />
+      </section>
+      <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
+      <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ol>
+    </main>
+    <footer id="formulario-footer">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="pepe@gmail.com"
+          />
+        </div>
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+          <button id="boton">Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+      <h3>Contactos</h3>
+      <nav>
+        <ul>
+          <li>Servicios</li>
+          <li>Contactos</li>
+          <li>Sobre nosotros</li>
+          <li>Driecciones</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
